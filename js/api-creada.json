@@ -1,0 +1,78 @@
+{
+"Resultados":[
+                    {
+                        "id":1, 
+                        "nombreLugar": "Departamento en ciudad",
+                        "descripcion": "quinto piso, vista a la ciudad",
+                        "lugar": "Capita, Buenos Aires, Argentina ",
+                        "alquiler": "Del 19 al 24 dic",
+                        "precio": "$ 55 UDS la noche",
+                        "cant": "para 3 personas, 2 camas, 1 baño",
+                        "niños": "si",
+                        "img":"https://a0.muscache.com/im/pictures/88357df3-4674-4177-9f21-f8f801bcfef0.jpg?im_w=320"
+
+                    },
+                    {
+                        "id":2, 
+                        "nombreLugar": "Cabaña de campo",
+                        "descripcion": "Villa Labrador a orillas del lago. Cabaña ALERCE",
+                        "lugar": "San Carlos de Bariloche, Río Negro, Argentina ",
+                        "alquiler": "Del 5 al 10 nov",
+                        "precio": "$ 175 UDS la noche",
+                        "cant": "10 personas, 3 dormitorios, 6 camas, 2 baños",
+                        "niños": "si",
+                        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-46324472/original/673d4d45-e7bb-45dc-8e00-c60cf1bdb666.jpeg?im_w=720"
+
+                    },
+                    {
+                        "id":3, 
+                        "nombreLugar": "Cabaña",
+                        "descripcion": "Casa de campo de cristal con bañera de hidromasaje Blár",
+                        "lugar": "Hella, Islandia ",
+                        "alquiler": "Del 11 al 16 de abril, 2024",
+                        "precio": "$ 794 UDS la noche",
+                        "cant": "2 personas, 1 cama, 1 baño",
+                        "niños": "no",
+                        "img":"https://a0.muscache.com/im/pictures/80385d19-c9dc-4dda-9d80-e16e55a8a6fd.jpg?im_w=720"
+
+                    },
+                    {
+                        "id":4, 
+                        "nombreLugar": "Departamento en ciudad",
+                        "descripcion": "Departamento NUEVO, en complejo residencial con vista al mar y amenities",
+                        "lugar": "Mar del Plata, Provincia de Buenos Aires, Argentina ",
+                        "alquiler": "Del 16 al 21 nov",
+                        "precio": "$ 210 UDS la noche",
+                        "cant": "para 4 personas, 2 dormitorios, 3 camas, 2 baños",
+                        "niños": "si",
+                        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-553403871325495078/original/e8e93c0c-6ea1-4a42-9d14-8a3c331c793c.jpeg?im_w=720"
+
+                    },
+                    {
+                        "id":5, 
+                        "nombreLugar": "Minicasa",
+                        "descripcion": "Toca da Araucária - Condado de Prata - Casa Hobbit",
+                        "lugar": " Nova Prata, Rio Grande do Sul, Brasil ",
+                        "alquiler": "Del 19 al 24 dic",
+                        "precio": "$ 96 UDS la noche",
+                        "cant": " 3 personas, 1 dormitorio, 2 camas, 1 baño",
+                        "niños": "no",
+                        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-47169419/original/9ce1a7e5-3d2d-433d-b716-3c15f8297efc.jpeg?im_w=720"
+
+                    },
+
+                    {
+                        "id":6, 
+                        "nombreLugar": "Casona entero",
+                        "descripcion": "Aura House 2bds Eco Bamboo House, piscina, vista al río.",
+                        "lugar": "Abiansemal, Bali, Indonesia ",
+                        "alquiler": "Del 12 al 17 enero, 2024",
+                        "precio": "$ 499 UDS la noche",
+                        "cant": "para 4 personas, 2 dormitorios, 2 camas, 2 baños",
+                        "niños": "no",
+                        "img":"https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+
+                    }
+                     
+             ]
+}

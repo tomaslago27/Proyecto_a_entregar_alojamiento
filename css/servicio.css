@@ -1,0 +1,35 @@
+.nombre{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+
+}
+.tarjeta p{
+ width: 100%;
+ margin-left: 8px;
+ margin-right: 10px;
+ padding-left: 10px;
+ margin-bottom: 4px;
+ font-weight: bold;
+ color: rgba(135, 97, 47, 0.91);
+}
+.tarjeta{
+    width: 300px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer ;
+}
+.tarjeta img{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5%;
+}
+.tarjeta:hover{
+    box-shadow: 3px 3px 30px 3px rgba(163, 163, 163, 1);
+ }
+#app{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+}

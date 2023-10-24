@@ -1,0 +1,284 @@
+.mas{
+    background-color: rgba(181, 158, 11, 0.242);
+    border-radius: 5px;
+    width: 100vw;
+}
+.t2{
+    text-align: center;
+}
+.er{
+    display: grid;
+place-items: center;
+}
+.titulo1{
+    background-color: rgba(72, 43, 8, 0.143);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.titulo1 h2{
+    font-weight: bold;
+}
+.abanico{
+    display: flex;
+    width: 600px;
+    height: 430px;
+border-radius: 10px;
+border: 2px solid  rgb(65, 37, 3);
+}
+.abanico img{
+    width: 0px;
+    flex-grow: 1;
+object-fit: cover;
+opacity: .8;
+transition: .5s ease;
+}
+.abanico img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.oport{
+    max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px; 
+}
+.montaña img{
+width: 350px;
+height: 250px;
+}
+
+.playa img{
+    width: 350px;
+    height: 250px;
+    }
+    
+.ciudad img{
+    width: 350px;
+    height: 250px;
+    }
+    
+.exotico img{
+    width: 350px;
+    height: 250px;
+    }
+    
+.BajaTemporada img{
+    width: 350px;
+    height: 250px;
+    }
+    
+.aventurero img{
+    width: 350px;
+    height: 250px;
+    }
+
+    .form{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .label{
+        display: block;
+        font-weight: 700;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .FormGrupoInput{
+        position: relative;
+    }
+    .controls{
+        width: 100%;
+        background: rgba(222, 190, 149, 0.669);
+        border: 3px solid transparent;
+        border-radius: 5px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 40px 0 10px;
+        transition: .3s  ease all;
+    }
+    .controls:focus{
+        border: 3px solid black;
+        outline: none;
+        box-shadow: 3px 0px 10px 0px rgba(163, 163, 163, 1);
+    }
+ .FormInputError{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+ }
+ .FormInputError-activo{
+    display: block;
+    margin-top: 6px;
+ }
+ .ValidacionEstado{
+    position: absolute;
+    right: 10px;
+    bottom: 6.5px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+ }
+ .checkBox{
+    margin-right: 10px;
+    border-radius: 50px;
+ }
+ .grupoTerminos {
+    grid-column:span 3;
+ }
+ .mensaje{
+    grid-column: span 3;
+    height: 45px;
+    line-height: 45px;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+ }
+ 
+ .grupoEnviar{
+    grid-column: span 3;
+ }
+ .mensaje p{
+    margin: 0;
+ }
+ .mensaje-activo{
+ display: block;
+ }
+ .grupoEnviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .btn{
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background:rgba(181, 158, 11, 0.242) ;
+    color: #935917;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer ;
+    transition: .1s ease all;
+ }
+ .btn:hover{
+    box-shadow: 3px 0px 30px 0px rgba(163, 163, 163, 1);
+ }
+.FormExito{
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+.FormExito-activo{
+    display: block;
+}
+.grupo-correcto .ValidacionEstado{
+color: #1ed12d;
+opacity: 1;
+}
+.grupo-incorrecto .label{
+color: #bb2929;
+}
+
+.grupo-incorrecto .ValidacionEstado{
+    color: #bb2929;
+    opacity: 1;
+    }
+.grupo-incorrecto .controls{
+    border: 3px solid #bb2929;
+}
+@media screen and (max-width: 800px){
+    .form{
+        grid-template-columns: 1fr;
+    }
+    .grupoTerminos,
+    .mensaje,
+    .grupoEnviar{
+        grid-column: 1;
+    }
+    .btn{
+        width: 100%;
+    }
+    
+}
+
+
+    /*
+    
+form{
+    width: 400px;
+    background: #b16b1b;
+    padding: 30px;
+    margin:0px 60px auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #a13409;
+    box-shadow: 7px 13px 37px whitesmoke; 
+ background-image: url(/img_menor_tamaño/637e9b2e3ec6f.jpg); 
+    background-position: center center ;
+
+    background-size:cover;
+    
+}
+form ul li{
+    list-style:none;
+}
+form h4{
+    font-size: 22px;
+    margin-bottom: 20px;  
+}
+form input{
+    background-color: aqua;
+}
+
+.controls {
+    width: 100%;
+    background: #c01e02;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid #160e0e;
+    font-size: 18px;
+    color: white;
+  }
+
+  form p {
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  
+  form a {
+    color:  #a13409;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    color: #e2470a;
+    text-decoration: underline;
+  }
+  ::placeholder{
+    color:rgb(216, 213, 12);
+    
+  }
+  
+  form .botons {
+    width: 100%;
+    background: #c01e02;;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+  }
+  .botons:hover{
+    background: #e2470a;
+    cursor:pointer;
+  }
+*/

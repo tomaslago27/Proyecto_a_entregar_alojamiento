@@ -1,0 +1,255 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;  
+}
+
+header{
+    width: 100vw;
+    height: 35vh;
+    background-image: url(/multimedia/9233-wood-wooden-texture-cranny-brown-4k.jpg);
+    background-position: bottom;
+    background-size: cover;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+header .navbar{
+    display:flex;
+}
+nav ul{
+    float: right;
+    margin-right: 4%;
+    margin-top: 5%;
+    list-style: none;
+
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#f0ede3;;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo{
+    
+    margin-left: 4%;
+    line-height: 300px;
+}
+.logo a{
+    color: azure;
+    font-size: 50px;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    transition: all 1s;
+}
+
+.logo img:hover {
+  width: 175px;
+  height: 175px;
+  transform: rotate(-3deg);
+}
+
+
+.boton:hover{
+    background-color: rgba(253, 253, 253, 0.354);
+    color: rgb(57, 7, 7);
+    padding: 10px 5px;
+    border-radius: 105px;
+    cursor:pointer;
+}
+div .buscar{
+    position: relative;
+}
+.buscar input{
+    padding: 10px;
+    padding-right: 35px;
+    border-radius:5px;
+    border: 0;
+    outline:invert;
+}
+.buscar ::placeholder{
+    color:#b27d0a ;
+    font-size: 13px;
+}
+.buscar button{
+    background-color: bisque;
+    padding: 10px;
+    border:0;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.buscar button:hover{
+    outline: invert;
+    background-color: whitesmoke;
+    border: 2px solid #9a0a0a;
+}
+.responsive {
+    font-size: 2rem;
+    border:0;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #f0ede3;
+    cursor: pointer;
+    display: none;
+} 
+footer{
+    width: 100vw;
+}
+.contenedor {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    div{
+        display:block;
+    }
+.pie{
+    
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    color: #333;
+    font-size: 14px;
+}
+.colum{
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+}
+.colum ul li{
+    list-style: none;
+}
+.colum ul li a{
+    text-decoration: none;
+    position: relative;
+    color: #666;
+    font-weight: bold;
+ }
+ .colum ul li a::after{
+ content: '';
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width:0;
+    border-bottom: 1px solid rgb(126, 4, 4);
+    transition: width 2s;
+}
+
+.colum ul li a:hover{
+    color: rgb(130, 8, 8);
+    cursor:pointer;
+}
+.colum ul li a:hover::after{
+    width: 100%;
+}
+.base{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ac6e0b;
+    font-size: 12px;
+    color: #666;
+}
+ .redes ul {
+    float: right;
+    margin-right: 4%;
+    margin-top: -3.7%;
+    list-style: none;
+}
+.redes ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+}
+ .redes ul li a{
+    text-decoration: none;
+    font-size: 23px;
+}
+@media screen and (max-width: 800px){
+    .contenedor {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .contenedor {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+@media screen and (max-width: 1127px){
+   nav{
+    padding: 1.5rem 1rem;
+   }
+   nav ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    top:80px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform .5s ease-in ;
+    background: #333;
+    z-index: 1;
+    border-radius: 5px;
+    display: none;
+
+   }
+   nav ul li{
+    margin: 8px;
+
+   }
+   nav {
+    position: relative;
+   }
+ .menu{
+    margin-left: 85%;
+    margin-top:11% ;
+    position: absolute;
+   }
+   .responsive {
+    display: block;
+    font-size: 50px;
+    display: inline-block;
+}
+nav ul.show{
+    position: fixed;
+    flex-direction: column;
+    display: grid;
+    top:86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(0);
+    transition: transform .5s ease-in ;
+    background: #333;
+    z-index: 1;
+    border-radius: 5px;
+   
+}
+}
