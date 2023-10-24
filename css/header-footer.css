@@ -11,6 +11,7 @@ header{
     width: 100vw;
     height: 35vh;
     background-image: url('/multimedia/9233-wood-wooden-texture-cranny-brown-4k.jpg');
+    background: #666;
     background-position: bottom;
     background-size: cover;
     flex-wrap: nowrap;
