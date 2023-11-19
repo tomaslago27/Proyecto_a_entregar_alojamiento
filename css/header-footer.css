@@ -203,7 +203,29 @@ footer{
         grid-gap: 20px;
     }
 }
-@media screen and (max-width: 1127px){
+@media screen and (max-width: 1024px) {
+   .dea{
+    grid-column: span 2;
+   }
+    nav ul {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: -40px;
+        }
+}
+@media screen and(max-width:768px) {
+    .navbar{
+        height: 100%;
+    }
+    .menu{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 800px){
    nav{
     padding: 1.5rem 1rem;
    }
@@ -238,6 +260,7 @@ footer{
     display: block;
     font-size: 50px;
     display: inline-block;
+    margin-left: -22px;
 }
 nav ul.show{
     position: fixed;
